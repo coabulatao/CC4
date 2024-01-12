@@ -1,0 +1,40 @@
+
+
+import java.util.Scanner;
+public class DailyRoutine {
+
+    public static void main(String[] args) {
+        Scanner someOBJ = new Scanner(System.in);
+        System.out.print("Time I wake up: ");
+        int time = someOBJ.nextInt();
+
+        if (time == 6) {
+            //Step 1
+            System.out.println("First Step: Wake up");
+            //Step 2
+            System.out.println("Second Step: Fix my bed");
+            //Step 3
+            System.out.println("Third Step: Eat my breakfast");
+            //Step 4
+            System.out.println("Fourth Step: Brush my teeth");
+            //Step 5
+            System.out.println("Fifth step: Shower");
+            //Step 6
+            System.out.println("Sixth step: Get dressed");
+            //Step 7
+            System.out.println("Seventh step: Go to school");
+        } else {
+            //Step 1
+            System.out.println("First Step: Wake up");
+            //Step 2
+            System.out.println("Second Step: Fix my bed");
+            //Step 3
+            System.out.println("Third Step: Brush my teeth");
+            //Step 4 
+            System.out.println("Fourth step: Get dressed");
+            //Step 5
+            System.out.println("Fifth step: Go to school");
+
+        }
+    }
+}
