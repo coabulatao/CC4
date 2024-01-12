@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 public class DailyRoutine {
 
@@ -8,7 +7,7 @@ public class DailyRoutine {
         System.out.print("Time I wake up: ");
         int time = someOBJ.nextInt();
 
-        if (time == 6) {
+        if (time <= 5 && time >=6) {
             //Step 1
             System.out.println("First Step: Wake up");
             //Step 2
@@ -22,7 +21,9 @@ public class DailyRoutine {
             //Step 6
             System.out.println("Sixth step: Get dressed");
             //Step 7
-            System.out.println("Seventh step: Go to school");
+            System.out.println("Seventh step: Skincare")
+            //Step 8
+            System.out.println("Eighth step: Go to school");
         } else {
             //Step 1
             System.out.println("First Step: Wake up");
