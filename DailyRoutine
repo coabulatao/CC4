@@ -13,17 +13,21 @@ public class DailyRoutine {
             //Step 2
             System.out.println("Second Step: Fix my bed");
             //Step 3
-            System.out.println("Third Step: Eat my breakfast");
+            System.out.println("Third Step: Cook my breakfast");
             //Step 4
-            System.out.println("Fourth Step: Brush my teeth");
+            System.out.println("Fourth Step: Eat my breakfast");
             //Step 5
-            System.out.println("Fifth step: Shower");
+            System.out.println("Fifth Step: Brush my teeth");
             //Step 6
-            System.out.println("Sixth step: Get dressed");
+            System.out.println("Sixth step: Shower");
             //Step 7
-            System.out.println("Seventh step: Skincare")
+            System.out.println("Seventh step: Get dressed");
             //Step 8
-            System.out.println("Eighth step: Go to school");
+            System.out.println("Eighth step: Skincare");
+            //Step 9
+            System.out.println("Ninth step: Go to school");
+            //Step 10
+            System.out.println("Tenth step: Wait for the class to start");
         } else {
             //Step 1
             System.out.println("First Step: Wake up");
