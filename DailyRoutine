@@ -39,6 +39,8 @@ public class DailyRoutine {
             System.out.println("Fourth step: Get dressed");
             //Step 5
             System.out.println("Fifth step: Go to school");
+            //Step 6 
+            System.out.println("Sixth step: Wait for the class to start");
 
         }
     }
